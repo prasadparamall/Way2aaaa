@@ -15,7 +15,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
 public class baseclass {
@@ -38,7 +37,7 @@ public class baseclass {
 			
 			try {
 				
-				fis= new FileInputStream("C:\\Users\\BOSU\\eclipse-workspace\\Way2aaaa\\configurations\\config.properties");
+				fis= new FileInputStream("C:\\Users\\BOSU\\git\\Way2aaaa\\configurations\\config.properties");
 				pro=new Properties();
 				pro.load(fis);
 				log.debug("pro file loaded  ...");
@@ -50,7 +49,7 @@ public class baseclass {
 			}
 			try {
 				
-				fis= new FileInputStream("C:\\Users\\BOSU\\eclipse-workspace\\Way2aaaa\\configurations\\OR.properties");
+				fis= new FileInputStream("C:\\Users\\BOSU\\git\\Way2aaaa\\configurations\\OR.properties");
 				or=new Properties();
 				or.load(fis);
 				log.debug("or file loaded  ...");
@@ -63,17 +62,17 @@ public class baseclass {
 		
 			if(pro.getProperty("browser").equals("chrome")) {
 				
-				System.setProperty("webdriver.chrome.driver","C:\\Users\\BOSU\\eclipse-workspace\\Way2aaaa\\Drivers\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver","C:\\Users\\BOSU\\git\\Way2aaaa\\Drivers\\chromedriver.exe");
 				driver = new ChromeDriver();
 				log.debug("chrome Launched  ...");
 			}else if(pro.getProperty("browser").equals("firefox")) {
 				
-				System.setProperty("webdriver.gecko.driver","C:\\Users\\BOSU\\eclipse-workspace\\Way2aaaa\\Drivers\\geckodriver.exe");
+				System.setProperty("webdriver.gecko.driver","C:\\Users\\BOSU\\git\\Way2aaaa\\Drivers\\geckodriver.exe");
 				driver = new FirefoxDriver();
 				log.debug("chrome Launched  ...");
 			}else if(pro.getProperty("browser").equals("ie")) {
 				
-				System.setProperty("webdriver.ie.driver","C:\\Users\\BOSU\\eclipse-workspace\\Way2aaaa\\Drivers\\IEDriverServer.exe");
+				System.setProperty("webdriver.ie.driver","C:\\Users\\BOSU\\git\\Way2aaaa\\Drivers\\IEDriverServer.exe");
 				driver = new InternetExplorerDriver();
 				log.debug("chrome Launched  ...");
 		}

@@ -57,7 +57,7 @@ public void AddCus() throws InterruptedException {
 	@DataProvider(name="LoginData")
 	public String [][] getdata() throws IOException{
 		
-		String path=".\\datafiles\\loginData.xlsx";
+		String path="C:\\Users\\BOSU\\git\\Way2aaaa\\datafiles\\loginData.xlsx";
 		XLUtility excel=new XLUtility(path);
 		
 		int rows=excel.getRowCount("sheet1");

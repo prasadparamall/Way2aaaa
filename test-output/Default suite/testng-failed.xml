@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.w2a.testcases.CustomerLogin">
+      <class name="com.w2a.testcases.ManagerAddcustomer">
         <methods>
-          <include name="AddCus"/>
-          <include name="open" invocation-numbers="0 1 2 3"/>
           <include name="Propertiefile"/>
+          <include name="AddCus"/>
+          <include name="excelR"/>
         </methods>
-      </class> <!-- com.w2a.testcases.CustomerLogin -->
+      </class> <!-- com.w2a.testcases.ManagerAddcustomer -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

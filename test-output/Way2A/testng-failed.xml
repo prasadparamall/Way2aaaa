@@ -1,11 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Way2A]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="manager login(failed)">
+    <classes>
+      <class name="com.w2a.testcases.ManagerLoginpage">
+        <methods>
+          <include name="setup1"/>
+          <include name="Propertiefile"/>
+        </methods>
+      </class> <!-- com.w2a.testcases.ManagerLoginpage -->
+    </classes>
+  </test> <!-- manager login(failed) -->
+  <test thread-count="5" name="Addcust(failed)">
+    <classes>
+      <class name="com.w2a.testcases.ManagerAddcustomer">
+        <methods>
+          <include name="Propertiefile"/>
+          <include name="AddCus"/>
+          <include name="excelR"/>
+        </methods>
+      </class> <!-- com.w2a.testcases.ManagerAddcustomer -->
+    </classes>
+  </test> <!-- Addcust(failed) -->
+  <test thread-count="5" name="show(failed)">
+    <classes>
+      <class name="com.w2a.testcases.Showcustomerdetails">
+        <methods>
+          <include name="Propertiefile"/>
+          <include name="setup3"/>
+        </methods>
+      </class> <!-- com.w2a.testcases.Showcustomerdetails -->
+    </classes>
+  </test> <!-- show(failed) -->
+  <test thread-count="5" name="openAcc(failed)">
+    <classes>
+      <class name="com.w2a.testcases.openAccount">
+        <methods>
+          <include name="checkAccNum"/>
+          <include name="Propertiefile"/>
+          <include name="open"/>
+        </methods>
+      </class> <!-- com.w2a.testcases.openAccount -->
+    </classes>
+  </test> <!-- openAcc(failed) -->
+  <test thread-count="5" name="gotohomepage(failed)">
+    <classes>
+      <class name="com.w2a.testcases.gotohomepage">
+        <methods>
+          <include name="setup2"/>
+          <include name="Propertiefile"/>
+        </methods>
+      </class> <!-- com.w2a.testcases.gotohomepage -->
+    </classes>
+  </test> <!-- gotohomepage(failed) -->
   <test thread-count="5" name="custLogin(failed)">
     <classes>
       <class name="com.w2a.testcases.AllCustomerLogin">
         <methods>
-          <include name="open1" invocation-numbers="1"/>
+          <include name="open1"/>
           <include name="Propertiefile"/>
           <include name="AddCus"/>
         </methods>

@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-02T00:18:05 IST" name="Way2A" finished-at="2021-06-02T00:19:53 IST" duration-ms="108747">
+  <suite started-at="2021-06-17T20:20:35 IST" name="Way2A" finished-at="2021-06-17T20:22:29 IST" duration-ms="114286">
     <groups>
     </groups>
-    <test started-at="2021-06-02T00:18:05 IST" name="manager login" finished-at="2021-06-02T00:18:05 IST" duration-ms="253">
+    <test started-at="2021-06-17T20:20:35 IST" name="manager login" finished-at="2021-06-17T20:20:35 IST" duration-ms="604">
       <class name="com.w2a.testcases.ManagerLoginpage">
-        <test-method signature="setup1()[pri:0, instance:com.w2a.testcases.ManagerLoginpage@496bc455]" started-at="2021-06-02T00:18:05 IST" name="setup1" finished-at="2021-06-02T00:18:05 IST" duration-ms="159" status="PASS">
+        <test-method signature="setup1()[pri:0, instance:com.w2a.testcases.ManagerLoginpage@7188af83]" started-at="2021-06-17T20:20:35 IST" name="setup1" finished-at="2021-06-17T20:20:35 IST" duration-ms="474" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup1 -->
       </class> <!-- com.w2a.testcases.ManagerLoginpage -->
     </test> <!-- manager login -->
-    <test started-at="2021-06-02T00:18:05 IST" name="Addcust" finished-at="2021-06-02T00:18:14 IST" duration-ms="9042">
+    <test started-at="2021-06-17T20:20:36 IST" name="Addcust" finished-at="2021-06-17T20:20:50 IST" duration-ms="14172">
       <class name="com.w2a.testcases.ManagerAddcustomer">
-        <test-method is-config="true" signature="AddCus()[pri:0, instance:com.w2a.testcases.ManagerAddcustomer@65f8f5ae]" started-at="2021-06-02T00:18:05 IST" name="AddCus" finished-at="2021-06-02T00:18:05 IST" duration-ms="81" status="PASS">
+        <test-method is-config="true" signature="AddCus()[pri:0, instance:com.w2a.testcases.ManagerAddcustomer@38467116]" started-at="2021-06-17T20:20:36 IST" name="AddCus" finished-at="2021-06-17T20:20:36 IST" duration-ms="121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddCus -->
-        <test-method signature="excelR(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.w2a.testcases.ManagerAddcustomer@65f8f5ae]" started-at="2021-06-02T00:18:08 IST" name="excelR" data-provider="LoginData" finished-at="2021-06-02T00:18:10 IST" duration-ms="1993" status="PASS">
+        <test-method signature="excelR(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.w2a.testcases.ManagerAddcustomer@38467116]" started-at="2021-06-17T20:20:43 IST" name="excelR" data-provider="LoginData" finished-at="2021-06-17T20:20:45 IST" duration-ms="2298" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -40,7 +40,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- excelR -->
-        <test-method signature="excelR(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.w2a.testcases.ManagerAddcustomer@65f8f5ae]" started-at="2021-06-02T00:18:10 IST" name="excelR" data-provider="LoginData" finished-at="2021-06-02T00:18:11 IST" duration-ms="1550" status="PASS">
+        <test-method signature="excelR(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.w2a.testcases.ManagerAddcustomer@38467116]" started-at="2021-06-17T20:20:45 IST" name="excelR" data-provider="LoginData" finished-at="2021-06-17T20:20:47 IST" duration-ms="1493" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -61,7 +61,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- excelR -->
-        <test-method signature="excelR(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.w2a.testcases.ManagerAddcustomer@65f8f5ae]" started-at="2021-06-02T00:18:11 IST" name="excelR" data-provider="LoginData" finished-at="2021-06-02T00:18:13 IST" duration-ms="1486" status="PASS">
+        <test-method signature="excelR(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.w2a.testcases.ManagerAddcustomer@38467116]" started-at="2021-06-17T20:20:47 IST" name="excelR" data-provider="LoginData" finished-at="2021-06-17T20:20:48 IST" duration-ms="1558" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -82,7 +82,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- excelR -->
-        <test-method signature="excelR(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.w2a.testcases.ManagerAddcustomer@65f8f5ae]" started-at="2021-06-02T00:18:13 IST" name="excelR" data-provider="LoginData" finished-at="2021-06-02T00:18:14 IST" duration-ms="1466" status="PASS">
+        <test-method signature="excelR(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.w2a.testcases.ManagerAddcustomer@38467116]" started-at="2021-06-17T20:20:48 IST" name="excelR" data-provider="LoginData" finished-at="2021-06-17T20:20:50 IST" duration-ms="1446" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -105,17 +105,17 @@
         </test-method> <!-- excelR -->
       </class> <!-- com.w2a.testcases.ManagerAddcustomer -->
     </test> <!-- Addcust -->
-    <test started-at="2021-06-02T00:18:14 IST" name="show" finished-at="2021-06-02T00:18:21 IST" duration-ms="7249">
+    <test started-at="2021-06-17T20:20:50 IST" name="show" finished-at="2021-06-17T20:20:57 IST" duration-ms="7378">
       <class name="com.w2a.testcases.Showcustomerdetails">
-        <test-method signature="setup3()[pri:0, instance:com.w2a.testcases.Showcustomerdetails@4b8d604b]" started-at="2021-06-02T00:18:14 IST" name="setup3" finished-at="2021-06-02T00:18:21 IST" duration-ms="7241" status="PASS">
+        <test-method signature="setup3()[pri:0, instance:com.w2a.testcases.Showcustomerdetails@68c9d179]" started-at="2021-06-17T20:20:50 IST" name="setup3" finished-at="2021-06-17T20:20:57 IST" duration-ms="7372" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup3 -->
       </class> <!-- com.w2a.testcases.Showcustomerdetails -->
     </test> <!-- show -->
-    <test started-at="2021-06-02T00:18:21 IST" name="openAcc" finished-at="2021-06-02T00:18:30 IST" duration-ms="8887">
+    <test started-at="2021-06-17T20:20:57 IST" name="openAcc" finished-at="2021-06-17T20:21:06 IST" duration-ms="9034">
       <class name="com.w2a.testcases.openAccount">
-        <test-method signature="open(java.lang.String,java.lang.String)[pri:0, instance:com.w2a.testcases.openAccount@6a8658ff]" started-at="2021-06-02T00:18:22 IST" name="open" data-provider="data" finished-at="2021-06-02T00:18:23 IST" duration-ms="1632" status="PASS">
+        <test-method signature="open(java.lang.String,java.lang.String)[pri:0, instance:com.w2a.testcases.openAccount@333d4a8c]" started-at="2021-06-17T20:20:57 IST" name="open" data-provider="data" finished-at="2021-06-17T20:20:59 IST" duration-ms="1811" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -131,7 +131,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open -->
-        <test-method signature="open(java.lang.String,java.lang.String)[pri:0, instance:com.w2a.testcases.openAccount@6a8658ff]" started-at="2021-06-02T00:18:23 IST" name="open" data-provider="data" finished-at="2021-06-02T00:18:25 IST" duration-ms="1502" status="PASS">
+        <test-method signature="open(java.lang.String,java.lang.String)[pri:0, instance:com.w2a.testcases.openAccount@333d4a8c]" started-at="2021-06-17T20:20:59 IST" name="open" data-provider="data" finished-at="2021-06-17T20:21:01 IST" duration-ms="1602" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -147,7 +147,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open -->
-        <test-method signature="open(java.lang.String,java.lang.String)[pri:0, instance:com.w2a.testcases.openAccount@6a8658ff]" started-at="2021-06-02T00:18:25 IST" name="open" data-provider="data" finished-at="2021-06-02T00:18:26 IST" duration-ms="1472" status="PASS">
+        <test-method signature="open(java.lang.String,java.lang.String)[pri:0, instance:com.w2a.testcases.openAccount@333d4a8c]" started-at="2021-06-17T20:21:01 IST" name="open" data-provider="data" finished-at="2021-06-17T20:21:02 IST" duration-ms="1521" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -163,7 +163,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open -->
-        <test-method signature="open(java.lang.String,java.lang.String)[pri:0, instance:com.w2a.testcases.openAccount@6a8658ff]" started-at="2021-06-02T00:18:26 IST" name="open" data-provider="data" finished-at="2021-06-02T00:18:28 IST" duration-ms="1594" status="PASS">
+        <test-method signature="open(java.lang.String,java.lang.String)[pri:0, instance:com.w2a.testcases.openAccount@333d4a8c]" started-at="2021-06-17T20:21:02 IST" name="open" data-provider="data" finished-at="2021-06-17T20:21:04 IST" duration-ms="1532" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -179,31 +179,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open -->
-        <test-method is-config="true" signature="checkAccNum()[pri:0, instance:com.w2a.testcases.openAccount@6a8658ff]" started-at="2021-06-02T00:18:28 IST" name="checkAccNum" finished-at="2021-06-02T00:18:30 IST" duration-ms="2238" status="PASS">
+        <test-method is-config="true" signature="checkAccNum()[pri:0, instance:com.w2a.testcases.openAccount@333d4a8c]" started-at="2021-06-17T20:21:04 IST" name="checkAccNum" finished-at="2021-06-17T20:21:06 IST" duration-ms="2196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkAccNum -->
       </class> <!-- com.w2a.testcases.openAccount -->
     </test> <!-- openAcc -->
-    <test started-at="2021-06-02T00:18:30 IST" name="gotohomepage" finished-at="2021-06-02T00:18:32 IST" duration-ms="2165">
+    <test started-at="2021-06-17T20:21:06 IST" name="gotohomepage" finished-at="2021-06-17T20:21:08 IST" duration-ms="2110">
       <class name="com.w2a.testcases.gotohomepage">
-        <test-method signature="setup2()[pri:0, instance:com.w2a.testcases.gotohomepage@4d14b6c2]" started-at="2021-06-02T00:18:30 IST" name="setup2" finished-at="2021-06-02T00:18:32 IST" duration-ms="2159" status="PASS">
+        <test-method signature="setup2()[pri:0, instance:com.w2a.testcases.gotohomepage@c05fddc]" started-at="2021-06-17T20:21:06 IST" name="setup2" finished-at="2021-06-17T20:21:08 IST" duration-ms="2103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup2 -->
       </class> <!-- com.w2a.testcases.gotohomepage -->
     </test> <!-- gotohomepage -->
-    <test started-at="2021-06-02T00:18:32 IST" name="custLogin" finished-at="2021-06-02T00:19:53 IST" duration-ms="80957">
+    <test started-at="2021-06-17T20:21:08 IST" name="custLogin" finished-at="2021-06-17T20:22:29 IST" duration-ms="80661">
       <class name="com.w2a.testcases.AllCustomerLogin">
-        <test-method is-config="true" signature="Propertiefile()[pri:0, instance:com.w2a.testcases.AllCustomerLogin@50378a4]" started-at="2021-06-02T00:17:59 IST" name="Propertiefile" finished-at="2021-06-02T00:18:05 IST" duration-ms="5533" status="PASS">
+        <test-method is-config="true" signature="Propertiefile()[pri:0, instance:com.w2a.testcases.AllCustomerLogin@79207381]" started-at="2021-06-17T20:20:25 IST" name="Propertiefile" finished-at="2021-06-17T20:20:35 IST" duration-ms="9664" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Propertiefile -->
-        <test-method is-config="true" signature="AddCus()[pri:0, instance:com.w2a.testcases.AllCustomerLogin@50378a4]" started-at="2021-06-02T00:18:32 IST" name="AddCus" finished-at="2021-06-02T00:18:35 IST" duration-ms="2091" status="PASS">
+        <test-method is-config="true" signature="AddCus()[pri:0, instance:com.w2a.testcases.AllCustomerLogin@79207381]" started-at="2021-06-17T20:21:08 IST" name="AddCus" finished-at="2021-06-17T20:21:10 IST" duration-ms="2125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddCus -->
-        <test-method signature="open1(java.lang.String,java.lang.String)[pri:0, instance:com.w2a.testcases.AllCustomerLogin@50378a4]" started-at="2021-06-02T00:18:35 IST" name="open1" data-provider="customerdata" finished-at="2021-06-02T00:18:55 IST" duration-ms="19692" status="PASS">
+        <test-method signature="open1(java.lang.String,java.lang.String)[pri:0, instance:com.w2a.testcases.AllCustomerLogin@79207381]" started-at="2021-06-17T20:21:11 IST" name="open1" data-provider="customerdata" finished-at="2021-06-17T20:21:30 IST" duration-ms="19704" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -219,7 +219,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open1 -->
-        <test-method signature="open1(java.lang.String,java.lang.String)[pri:0, instance:com.w2a.testcases.AllCustomerLogin@50378a4]" started-at="2021-06-02T00:18:55 IST" name="open1" data-provider="customerdata" finished-at="2021-06-02T00:19:14 IST" duration-ms="19521" status="PASS">
+        <test-method signature="open1(java.lang.String,java.lang.String)[pri:0, instance:com.w2a.testcases.AllCustomerLogin@79207381]" started-at="2021-06-17T20:21:30 IST" name="open1" data-provider="customerdata" finished-at="2021-06-17T20:21:50 IST" duration-ms="19494" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -235,7 +235,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open1 -->
-        <test-method signature="open1(java.lang.String,java.lang.String)[pri:0, instance:com.w2a.testcases.AllCustomerLogin@50378a4]" started-at="2021-06-02T00:19:14 IST" name="open1" data-provider="customerdata" finished-at="2021-06-02T00:19:34 IST" duration-ms="19688" status="PASS">
+        <test-method signature="open1(java.lang.String,java.lang.String)[pri:0, instance:com.w2a.testcases.AllCustomerLogin@79207381]" started-at="2021-06-17T20:21:50 IST" name="open1" data-provider="customerdata" finished-at="2021-06-17T20:22:09 IST" duration-ms="19413" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -251,7 +251,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open1 -->
-        <test-method signature="open1(java.lang.String,java.lang.String)[pri:0, instance:com.w2a.testcases.AllCustomerLogin@50378a4]" started-at="2021-06-02T00:19:34 IST" name="open1" data-provider="customerdata" finished-at="2021-06-02T00:19:53 IST" duration-ms="19630" status="PASS">
+        <test-method signature="open1(java.lang.String,java.lang.String)[pri:0, instance:com.w2a.testcases.AllCustomerLogin@79207381]" started-at="2021-06-17T20:22:09 IST" name="open1" data-provider="customerdata" finished-at="2021-06-17T20:22:29 IST" duration-ms="19574" status="PASS">
           <params>
             <param index="0">
               <value>
